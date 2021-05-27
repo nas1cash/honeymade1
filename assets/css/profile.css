@@ -1,5 +1,5 @@
 *{
-  padding:0px;
+  padding:px;
   margin:0px;
   box-sizing:border-box;
  }
@@ -13,20 +13,25 @@
      nav{
         display:inline-block;
         justify-content:space-between;
-        padding: px 5px;
-        background-color:teal;
+        padding:0px;
+        background-color:blue;
         transition:0.9s ease;
+        width:100%;
+        weight:100px;
         }
         
      Section{
-        padding:10px 15px;
+        padding:20px 10px;
+    
+        }
+        
        
         }
         
      @media(max-width:1000px){
      
      main{
-         flex-direction: column;
+         flex-direction:column;
          }
          
        .info{
@@ -40,25 +45,32 @@
      @media( max-width:100px){
         .hamburger-wrapper{
            display:inline-block;
-           color:aqua;
+           justify-content:space-between;
+           color:blue;
            cursor:pointer;
-           font-size:50px;
-           width: 160%;
-           height: 100%;
+           font-size:300px;
+           width: 300%;
+           height:100%;
+           weight:100px;
            }
          
       }
       .nav-items{
-          display:block;
-          background-color:blue;
-          width:100%;
+          display:inline-block;
+          background-color:dodgerblue;
+          width:130%;
           text-align:left;
-          
+          padding:0.5px;
+          height:20%;
+          weight:80px;
           }
       main{
         display-flex
         padding:0px;
         transition: 0.3s ease;
+        width:128%;
+        color:lime;
+        background-color:blue;
         }
       
       .info{
@@ -70,13 +82,14 @@
           font-size:15px;
           font-weight:10;
           line-height:1.5;
-          background-color:teal;
+          background-color:transparent;
           }
           
         .info p{
            font-size:20px;
-           color:silver;
+           color:fuchsia;
            }
+   
         
         .my-image{
           width:300%;
@@ -87,6 +100,6 @@
               }
       
      .nav-links{
-         text-align:justify;
+         text-align:left;
          }
      
